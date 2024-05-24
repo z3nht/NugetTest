@@ -5,7 +5,7 @@ namespace NugetTest
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            // c1
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
